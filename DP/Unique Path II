@@ -22,6 +22,7 @@ public:
         return t[i][j] = right + down;
     }
 
+
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
         memset(t,-1,sizeof(t));
         int m = obstacleGrid.size();
